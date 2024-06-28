@@ -29,28 +29,32 @@ AppCompatButton bsi1,bsi2,bsi3,bsi4,bsi5;
         bsi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"added",Toast.LENGTH_LONG).show();
+                Intent i1=new Intent(getApplicationContext(), AddPostPage.class);
+                startActivity(i1);
             }
         });
 
         bsi2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"searched",Toast.LENGTH_LONG).show();
+                Intent i2=new Intent(getApplicationContext(), SearchPostPage.class);
+                startActivity(i2);
             }
         });
 
         bsi3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"delete",Toast.LENGTH_LONG).show();
+                Intent i3=new Intent(getApplicationContext(), DeletePostPage.class);
+                startActivity(i3);
             }
         });
 
         bsi4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"view",Toast.LENGTH_LONG).show();
+                Intent i4=new Intent(getApplicationContext(), ViewPostPage.class);
+                startActivity(i4);
             }
         });
 

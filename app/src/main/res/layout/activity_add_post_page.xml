@@ -1,0 +1,59 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#AA529B9B"
+    android:padding="50px"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD POST"
+        android:textSize="10pt"
+        android:textAlignment="center"
+        android:textColor="#5D5336"
+        android:layout_marginBottom="70px"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="10px"
+        android:text="ADD FROM GALLERY/DOCS"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/afgbut"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:text="Write Content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:layout_margin="10px"
+        android:id="@+id/write"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="20px"
+        android:text="POST"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/postbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_marginTop="50dp"
+        android:text="BACK"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/backbut"/>
+
+
+</LinearLayout>
