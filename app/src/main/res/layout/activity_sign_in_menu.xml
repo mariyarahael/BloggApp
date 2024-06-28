@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#AA529B9B"
+    android:padding="50px"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textSize="20pt"
+        android:textAlignment="center"
+        android:textColor="#5D5336"
+        android:layout_marginBottom="50px"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="10px"
+        android:text="ADD POST"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/addbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="10px"
+        android:text="SEARCH POST"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/srchbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="10px"
+        android:text="DELETE POST"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/dltbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_margin="10px"
+        android:text="VIEW POST"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/viewbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D5336"
+        android:layout_marginTop="50dp"
+        android:text="LOG OUT"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/logoutbut"/>
+
+
+</LinearLayout>

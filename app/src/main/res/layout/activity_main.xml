@@ -1,0 +1,64 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:orientation="vertical"
+    android:padding="50px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="700px"
+        android:layout_height="500px"
+        android:background="@drawable/blog"
+        android:layout_margin="20px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your username"
+        android:layout_margin="10px"
+        android:id="@+id/uname"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="10pt"
+        android:textColor="#0F0907"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your password"
+        android:layout_margin="10px"
+        android:inputType="textPassword"
+        android:id="@+id/pass"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#894682"
+        android:layout_margin="10px"
+        android:text="SIGN IN"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/signinbut"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6B77C7"
+        android:layout_margin="10px"
+        android:text="SIGN UP"
+        android:textColor="#FAF5FAFA"
+        android:id="@+id/signupbut"/>
+
+
+</LinearLayout>
