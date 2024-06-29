@@ -1,6 +1,7 @@
 package com.example.blogapp;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -61,6 +62,10 @@ AppCompatButton bsi1,bsi2,bsi3,bsi4,bsi5;
         bsi5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SharedPreferences pref=getSharedPreferences("logg",MODE_PRIVATE);
+                SharedPreferences.Editor editor=pref.edit();
+                editor.clear();
+                editor.apply();
                 Intent i5= new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i5);
             }
